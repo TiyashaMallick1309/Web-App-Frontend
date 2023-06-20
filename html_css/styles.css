@@ -1,0 +1,45 @@
+/* CSS styles for the first table */
+#first-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial Narrow, Arial, sans-serif;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black; 
+  }
+  
+  #first-table th,
+  #first-table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  #first-table th {
+    background-color: rgb(107, 204, 107);
+    color: white;
+  }
+  
+  #first-table tbody tr:nth-child(even) {
+    background-color: #a9a7a7;
+  }
+  
+  #first-table tbody tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  #first-table-container {
+    position: relative;
+  }
+  
+  #first-table-container::after {
+    content: '';
+    position: absolute;
+    top: -10px; 
+    left: -5px; 
+    right: -20px; 
+    bottom: -10px; 
+    border: 5px solid orange;
+    z-index: -1;
+  }
+  
