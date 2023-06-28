@@ -1,0 +1,19 @@
+.edit-dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+.edit-dialog input {
+  margin-bottom: 10px;
+}
+
+.edit-dialog-buttons {
+  margin-top: 20px;
+  text-align: right;
+}
